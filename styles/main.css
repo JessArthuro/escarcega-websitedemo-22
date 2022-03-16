@@ -1,0 +1,588 @@
+a {
+  text-decoration: none !important;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.header .navbar .nav-link {
+  font-weight: 500;
+}
+
+.header .navbar .nav-link:hover {
+  color: #FC9A00;
+}
+
+.header .navbar .dropdown-menu .dropdown-item {
+  text-align: end;
+}
+
+.logo {
+  max-height: 100px;
+}
+
+.main .title-section {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+
+.main .title-section .title {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.main .home {
+  height: 60vh;
+}
+
+.main .home .home-slider {
+  height: 60vh;
+}
+
+.main .home .home-slider .slide {
+  position: relative;
+}
+
+.main .home .home-slider .slide .description {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: #000;
+  padding: 0 1rem;
+  max-width: 30rem;
+}
+
+.main .home .home-slider .slide .description .btn-slider {
+  background-color: #FC9A00;
+  color: #000;
+  font-weight: 600;
+  padding: .45rem;
+  border-radius: .375rem;
+  font-size: .75rem;
+}
+
+.main .home .home-slider .slide img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main .home .home-slider .swiper-pagination > .swiper-pagination-bullet {
+  background-color: #000;
+  opacity: .2;
+}
+
+.main .home .home-slider .swiper-pagination > .swiper-pagination-bullet-active {
+  background-color: #FC9A00;
+  opacity: 1;
+}
+
+.main .modal-payments .modal-header .modal-title {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+
+.main .modal-payments .modal-body .payment-item {
+  display: block;
+  padding: .65rem .5rem;
+  color: #000;
+  border-radius: 0.375rem;
+  margin-bottom: .5rem;
+}
+
+.main .modal-payments .modal-body .payment-item .icon-payment {
+  color: #FC9A00;
+  padding-right: .35rem;
+}
+
+.main .modal-payments .modal-body .payment-item:hover {
+  outline: 1px solid #FC9A00;
+}
+
+.main .categories .categories-content .category-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: .5rem;
+  background-color: rgba(219, 224, 229, 0.5);
+  text-align: center;
+  color: #95A4B2;
+  border-radius: 0.375rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  -webkit-transition: .4s linear;
+  transition: .4s linear;
+}
+
+.main .categories .categories-content .category-item:hover {
+  color: #000;
+  background-color: #FC9A00;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.main .categories .categories-content .category-item.btn-modal {
+  border: none;
+  width: 100%;
+}
+
+.main .categories .categories-content .category-item .icon-category {
+  max-height: 3rem;
+}
+
+.main .government {
+  margin: 3.5rem 0;
+}
+
+.main .government .government-content .government-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: .5rem;
+  background-color: rgba(219, 224, 229, 0.5);
+  text-align: center;
+  padding: 2rem 0;
+  border-radius: 0.375rem;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  -webkit-transition: .4s linear;
+  transition: .4s linear;
+}
+
+.main .government .government-content .government-item .government-icon {
+  font-size: 3rem;
+  color: #000;
+}
+
+.main .government .government-content .government-item:hover {
+  background-color: #DBE0E5;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-box-shadow: 0 -5px 0 #FC9A00 inset;
+          box-shadow: 0 -5px 0 #FC9A00 inset;
+}
+
+.main .title-dependencies {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.main .dependencies-content .map-content {
+  height: 50vh;
+}
+
+.main .dependencies-content .map-content .map {
+  width: 100%;
+  height: 100%;
+}
+
+.main .dependencies-content .sectors .title-sectors {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.main .dependencies-content .sectors .sector-category {
+  display: block;
+  color: #95A4B2;
+  background-color: rgba(219, 224, 229, 0.5);
+  margin-bottom: 1rem;
+  -webkit-transition: .4s linear;
+  transition: .4s linear;
+}
+
+.main .dependencies-content .sectors .sector-category:hover {
+  color: #000;
+  font-weight: 500;
+  background-color: #DBE0E5;
+}
+
+.main .dependencies-content .sectors .sector-category .icon-sector {
+  color: #000;
+  padding: .5rem;
+}
+
+.main .dependencies-content .sectors .sector-category .icon-sector.economy {
+  background-color: #FFC300;
+}
+
+.main .dependencies-content .sectors .sector-category .icon-sector.social {
+  background-color: #2E86C1;
+}
+
+.main .dependencies-content .sectors .sector-category .icon-sector.education {
+  background-color: #FF5733;
+}
+
+.main .dependencies-content .sectors .sector-category .icon-sector.territory {
+  background-color: #229954;
+}
+
+.main .dependencies-content .sectors .sector-category .icon-sector.security {
+  background-color: #8E44AD;
+}
+
+.main .list-dependencies {
+  margin-top: 2rem;
+}
+
+.main .list-dependencies .dependencies-item {
+  display: block;
+  margin-bottom: 1rem;
+  position: relative;
+  color: #95A4B2;
+  -webkit-transition: .4s linear;
+  transition: .4s linear;
+}
+
+.main .list-dependencies .dependencies-item:hover {
+  background-color: rgba(219, 224, 229, 0.5);
+  color: #000;
+  font-weight: 500;
+}
+
+.main .list-dependencies .dependencies-item .icon-color1 {
+  padding-right: 1rem;
+}
+
+.main .list-dependencies .dependencies-item .icon-color1::before {
+  position: absolute;
+  content: '';
+  width: .65rem;
+  height: .65rem;
+  background-color: #2E86C1;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.main .list-dependencies .dependencies-item .icon-color2 {
+  padding-right: 1rem;
+}
+
+.main .list-dependencies .dependencies-item .icon-color2::before {
+  position: absolute;
+  content: '';
+  width: .65rem;
+  height: .65rem;
+  background-color: #229954;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.main .participation {
+  margin: 3.5rem 0;
+}
+
+.main .participation .participation-content .participation-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: .5rem;
+  background-color: rgba(219, 224, 229, 0.5);
+  text-align: center;
+  padding: 2rem 0;
+  border-radius: 0.375rem;
+  color: #95A4B2;
+  text-transform: uppercase;
+  font-weight: 600;
+  -webkit-transition: .4s linear;
+  transition: .4s linear;
+}
+
+.main .participation .participation-content .participation-item:hover {
+  background-color: #FC9A00;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  color: #000;
+}
+
+.main .participation .participation-content .participation-item .icon-participation {
+  margin: auto;
+  max-height: 4rem;
+}
+
+.main .tourism {
+  margin: 3.5rem 0;
+}
+
+.main .tourism .tourism-content .tourism-item {
+  display: block;
+  text-align: center;
+  padding: 4rem;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  -webkit-transition: .4s linear;
+  transition: .4s linear;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+}
+
+.main .tourism .tourism-content .tourism-item.tourism-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../img/atractivos-turisticos.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/atractivos-turisticos.jpg);
+}
+
+.main .tourism .tourism-content .tourism-item.tourism-2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../img/cultura-y-tradiciones.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/cultura-y-tradiciones.jpg);
+}
+
+.main .tourism .tourism-content .tourism-item.tourism-3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../img/recursos-naturales.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/recursos-naturales.png);
+}
+
+.main .tourism .tourism-content .tourism-item:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.main .accounts {
+  margin: 3.5rem 0;
+}
+
+.main .accounts .accounts-content .accounts-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: .5rem;
+  background-color: rgba(219, 224, 229, 0.5);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0.375rem;
+  color: #95A4B2;
+  text-transform: uppercase;
+  font-weight: 600;
+  -webkit-transition: .4s linear;
+  transition: .4s linear;
+}
+
+.main .accounts .accounts-content .accounts-item:hover {
+  background-color: #DBE0E5;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  color: #000;
+  -webkit-box-shadow: inset 5px -5px 0 #FC9A00;
+          box-shadow: inset 5px -5px 0 #FC9A00;
+}
+
+.main .accounts .accounts-content .accounts-item .icon-account {
+  max-height: 4rem;
+}
+
+.main .emergencies {
+  margin: 3.5rem 0;
+}
+
+.main .emergencies .emergencies-content .emergencies-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .emergencies .emergencies-content .emergencies-item .icon-emergencies {
+  height: 8rem;
+  margin: auto;
+}
+
+.main .last-news {
+  margin: 3.5rem 0;
+}
+
+.main .last-news .news-content .news-item {
+  border-radius: 0.375rem;
+  -webkit-transition: .4s linear;
+  transition: .4s linear;
+  overflow: hidden;
+}
+
+.main .last-news .news-content .news-item .img-content {
+  width: 100%;
+  height: 12rem;
+  overflow: hidden;
+}
+
+.main .last-news .news-content .news-item .img-content .img-news {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main .last-news .news-content .news-item:hover {
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+}
+
+.main .last-news .news-content .news-item:hover .img-content .img-news {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: .4s linear;
+  transition: .4s linear;
+}
+
+.main .last-news .news-content .news-item .news-info {
+  padding: 1rem;
+  border: 1px solid rgba(219, 224, 229, 0.5);
+}
+
+.main .last-news .news-content .news-item .news-info .date {
+  font-size: .8rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.main .last-news .news-content .news-item .news-info .title-news {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.main .last-news .news-content .news-item .news-info .description {
+  font-size: .9rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.main .last-news .news-content .news-item .news-info .btn-news {
+  background-color: #FC9A00;
+  color: #000;
+  font-weight: 600;
+  padding: .45rem;
+  border-radius: .375rem;
+  font-size: .75rem;
+}
+
+.footer {
+  background-color: rgba(219, 224, 229, 0.5);
+}
+
+.footer .title-section {
+  text-transform: uppercase;
+  font-size: 1.45rem;
+  font-weight: 700;
+  padding-top: 1.5rem;
+  color: #FC9A00;
+}
+
+.footer .quick-link {
+  display: block;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.footer .quick-link:hover {
+  color: #000;
+  font-weight: 600;
+}
+
+.footer .quick-link:hover i {
+  padding-right: .85rem;
+  -webkit-transition: .4s linear;
+  transition: .4s linear;
+}
+
+.footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.footer .social .logo img {
+  max-height: 100px;
+}
+
+.footer .social .links-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer .social .links-content .social-link .social-icon {
+  font-size: 2rem;
+  color: #000;
+  -webkit-transition: .4s linear;
+  transition: .4s linear;
+}
+
+.footer .social .links-content .social-link .social-icon:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.footer .copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.footer .copyright .author .description {
+  font-size: .8rem;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.footer .copyright .author .description .link-author {
+  color: #FC9A00;
+  font-weight: 600;
+}
+
+.footer .copyright .terms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+.footer .copyright .terms .terms-item {
+  font-size: .8rem;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.footer .copyright .terms .terms-item:hover {
+  color: #000;
+}
+/*# sourceMappingURL=main.css.map */
